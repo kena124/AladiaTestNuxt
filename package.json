@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "element-plus": "^2.9.0",
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.2",
+    "@nuxtjs/style-resources": "^1.2.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@storybook/addon-essentials": "^8.4.6",
+    "@storybook/addon-interactions": "^8.4.6",
+    "@storybook/addon-links": "^8.4.6",
+    "@storybook/addon-onboarding": "^8.4.6",
+    "@storybook/addon-themes": "^8.4.6",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.4.6",
+    "@storybook/builder-vite": "^8.4.6",
+    "@storybook/manager-api": "^8.4.6",
+    "@storybook/test": "^8.4.6",
+    "@storybook/theming": "^8.4.6",
+    "@storybook/vue3": "^8.4.6",
+    "@storybook/vue3-vite": "^8.4.6",
+    "@storybook/vue3-webpack5": "^8.4.6",
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.5.13",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "storybook": "^8.4.6",
+    "typescript": "^5.7.2",
+    "vue-loader": "^17.3.1"
+  }
+}
